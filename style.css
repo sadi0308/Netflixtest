@@ -1,9 +1,12 @@
-@import 'reset.html';
 @import 'lib.html';
 @import 'home.html';
 @import 'category.html';
 @import 'films.html';
 @import 'contact.html';
+
+
+@import 'reset.css';
+@import 'lib.css';
 
 
 
