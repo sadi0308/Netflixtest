@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+}
+/* barre de navigation */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 25px;
+    
+}
+
+/* fin de barre de navigation */
+
+nav .left{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.nav .left img{
+    padding-top: 5px;
+}
+
+nav .left .onglets {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+nav .left .onglets p{
+    margin-left: 10px;
+    cursor: pointer;
+    color: grey;
+
+}
+nav .left .onglets p:hover{
+    color: white;
+}
+
+nav .right {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+nav .right p {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+   
+
+.films {
+    background-color: black;
+    padding: 25px;
+}
+
+h1{
+    color: white;
+}
+
+.films .list{
+    display: flex;
+    overflow-x: auto;
+    
+
+
+}
+
+
+.films .list a{
+    padding-left: 5px;
+    transition: transform 0.25s;
+    
+    
+}
+
+.films .list img{
+    height: 150px;
+
+   
+    
+   
+}
+
+.films .list a:hover{
+    transform: scale(1.05);
+}
+
+
+
+.films .list::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media screen and (max-width:900px){
+    .films{
+       
+    }
+    .films .list {
+        display: block;
+    }
+    
+    .films .list img{
+        
+       width:100% ;
+       height: 100%;
+    }
+    
+    
+}
